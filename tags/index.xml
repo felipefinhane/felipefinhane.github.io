@@ -6,9 +6,55 @@
     <description>Recent content in Tags on Finhane.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 19 Sep 2017 22:22:22 -0300</lastBuildDate>
     
 	<atom:link href="https://finhane.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bash</title>
+      <link>https://finhane.com/tags/bash/</link>
+      <pubDate>Tue, 19 Sep 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://finhane.com/tags/linux/</link>
+      <pubDate>Tue, 19 Sep 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>https://finhane.com/tags/shell/</link>
+      <pubDate>Tue, 19 Sep 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molho</title>
+      <link>https://finhane.com/tags/molho/</link>
+      <pubDate>Wed, 02 Aug 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/molho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manjraro</title>
+      <link>https://finhane.com/tags/manjraro/</link>
+      <pubDate>Thu, 27 Jul 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/manjraro/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
