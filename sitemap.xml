@@ -3,17 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://finhane.com/tags/bash/</loc>
-    <lastmod>2017-09-19T22:22:22-03:00</lastmod>
+    <loc>https://finhane.com/categories/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
   </url>
   
   <url>
-    <loc>https://finhane.com/categories/</loc>
-    <lastmod>2017-09-19T22:22:22-03:00</lastmod>
+    <loc>https://finhane.com/tags/deploy/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/blog/2018/02/deploy-de-aplica%C3%A7%C3%A3o-no-heroku/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/categories/devops/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
   </url>
   
   <url>
     <loc>https://finhane.com/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/heroku/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/nodejs/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/post/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/categories/programa%C3%A7%C3%A3o/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/</loc>
+    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/categories/category1/</loc>
+    <lastmod>2018-02-05T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/categories/category2/</loc>
+    <lastmod>2018-02-05T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/tag1/</loc>
+    <lastmod>2018-02-05T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/tag2/</loc>
+    <lastmod>2018-02-05T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/blog/2018/02/torta-de-frango-cremosa/</loc>
+    <lastmod>2018-02-05T22:22:22-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/bash/</loc>
     <lastmod>2017-09-19T22:22:22-03:00</lastmod>
   </url>
   
@@ -33,17 +98,7 @@
   </url>
   
   <url>
-    <loc>https://finhane.com/post/</loc>
-    <lastmod>2017-09-19T22:22:22-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://finhane.com/tags/shell/</loc>
-    <lastmod>2017-09-19T22:22:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://finhane.com/tags/</loc>
     <lastmod>2017-09-19T22:22:22-03:00</lastmod>
   </url>
   

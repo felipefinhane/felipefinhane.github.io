@@ -6,10 +6,28 @@
     <description>Recent content on Finhane.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Sep 2017 22:22:22 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 15 Feb 2018 22:22:22 -0300</lastBuildDate>
     
 	<atom:link href="https://finhane.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deploy De Aplicação No Heroku</title>
+      <link>https://finhane.com/blog/2018/02/deploy-de-aplica%C3%A7%C3%A3o-no-heroku/</link>
+      <pubDate>Thu, 15 Feb 2018 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/blog/2018/02/deploy-de-aplica%C3%A7%C3%A3o-no-heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Torta De Frango Cremosa</title>
+      <link>https://finhane.com/blog/2018/02/torta-de-frango-cremosa/</link>
+      <pubDate>Mon, 05 Feb 2018 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/blog/2018/02/torta-de-frango-cremosa/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Pesquisar Texto Dentro De Arquivos</title>
