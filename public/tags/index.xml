@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Finhane.com</title>
+    <link>https://finhane.com/tags/</link>
+    <description>Recent content in Tags on Finhane.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Feb 2018 22:22:22 -0300</lastBuildDate>
+    
+	<atom:link href="https://finhane.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deploy</title>
+      <link>https://finhane.com/tags/deploy/</link>
+      <pubDate>Thu, 15 Feb 2018 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/deploy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heroku</title>
+      <link>https://finhane.com/tags/heroku/</link>
+      <pubDate>Thu, 15 Feb 2018 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/heroku/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NodeJs</title>
+      <link>https://finhane.com/tags/nodejs/</link>
+      <pubDate>Thu, 15 Feb 2018 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Massa</title>
+      <link>https://finhane.com/tags/massa/</link>
+      <pubDate>Mon, 05 Feb 2018 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/massa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://finhane.com/tags/bash/</link>
+      <pubDate>Tue, 19 Sep 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://finhane.com/tags/linux/</link>
+      <pubDate>Tue, 19 Sep 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shell</title>
+      <link>https://finhane.com/tags/shell/</link>
+      <pubDate>Tue, 19 Sep 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Molho</title>
+      <link>https://finhane.com/tags/molho/</link>
+      <pubDate>Wed, 02 Aug 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/molho/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>manjraro</title>
+      <link>https://finhane.com/tags/manjraro/</link>
+      <pubDate>Thu, 27 Jul 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/tags/manjraro/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
