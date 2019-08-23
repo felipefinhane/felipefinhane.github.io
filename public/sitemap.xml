@@ -4,7 +4,52 @@
   
   <url>
     <loc>https://finhane.com/categories/</loc>
-    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/</loc>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/categories/linux/</loc>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/linux/</loc>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/blog/2019/08/metodos-de-insersao-no-vim/</loc>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/post/</loc>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/programa%C3%A7%C3%A3o/</loc>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/</loc>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/texto/</loc>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://finhane.com/tags/vim/</loc>
+    <lastmod>2019-08-23T00:37:49-03:00</lastmod>
   </url>
   
   <url>
@@ -23,11 +68,6 @@
   </url>
   
   <url>
-    <loc>https://finhane.com/</loc>
-    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://finhane.com/tags/heroku/</loc>
     <lastmod>2018-02-15T22:22:22-03:00</lastmod>
   </url>
@@ -38,17 +78,7 @@
   </url>
   
   <url>
-    <loc>https://finhane.com/post/</loc>
-    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://finhane.com/categories/programa%C3%A7%C3%A3o/</loc>
-    <lastmod>2018-02-15T22:22:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://finhane.com/tags/</loc>
     <lastmod>2018-02-15T22:22:22-03:00</lastmod>
   </url>
   
@@ -69,16 +99,6 @@
   
   <url>
     <loc>https://finhane.com/tags/bash/</loc>
-    <lastmod>2017-09-19T22:22:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://finhane.com/categories/linux/</loc>
-    <lastmod>2017-09-19T22:22:22-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://finhane.com/tags/linux/</loc>
     <lastmod>2017-09-19T22:22:22-03:00</lastmod>
   </url>
   

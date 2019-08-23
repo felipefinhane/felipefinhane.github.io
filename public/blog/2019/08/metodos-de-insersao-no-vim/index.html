@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
@@ -17,7 +14,7 @@
   
 
   
-  <title>Linux</title>
+  <title>Metodos De Insersao No Vim</title>
 
   
   
@@ -34,7 +31,7 @@
   <link href="https://finhane.com/favicon.png" rel="icon">
 
   
-  <link href="/categories/linux/index.xml" rel="alternate" type="application/rss+xml" title="Finhane.com" />
+  
 
   <meta name="description" content="" />
   <meta name="keywords" content="">
@@ -115,105 +112,102 @@
 <div id="main">
   <div id="content">
     <div>
-      <article role="article">
-        <header>
-          <h1 class="entry-title">
-            Category: Linux
-          </h1>
-        </header>
-        <div id="blog-archives" class="category">
-          
-          <h2>
-            2019
-          </h2>
-          <article>
-            <h1>
-              <a href="https://finhane.com/blog/2019/08/metodos-de-insersao-no-vim/" title="Metodos De Insersao No Vim">Metodos De Insersao No Vim</a>
-            </h1>
-            <time>
-              <span class="month">Aug</span>
-              <span class="day">23</span>
-            </time>
-            <footer>
-              <span class="categories"> 
-                
-                
-                posted in:
-                 <a class="category" href="https://finhane.com/categories/linux">Linux</a>
-              </br>
-                
+      <article class="hentry" role="article">
 
-                
-                
-                tags:
-                 <a class="category" href="https://finhane.com/tags/linux">Linux</a> <a class="category" href="https://finhane.com/tags/vim">Vim</a> <a class="category" href="https://finhane.com/tags/texto">Texto</a> <a class="category" href="https://finhane.com/tags/programa%c3%a7%c3%a3o">Programação</a>
-                
-              </span>
-            </footer>
-          </article>
-          
-          <h2>
-            2017
-          </h2>
-          <article>
-            <h1>
-              <a href="https://finhane.com/blog/2017/09/pesquisar-texto-dentro-de-arquivos/" title="Pesquisar Texto Dentro De Arquivos">Pesquisar Texto Dentro De Arquivos</a>
-            </h1>
-            <time>
-              <span class="month">Sep</span>
-              <span class="day">19</span>
-            </time>
-            <footer>
-              <span class="categories"> 
-                
-                
-                posted in:
-                 <a class="category" href="https://finhane.com/categories/linux">Linux</a>
-              </br>
-                
+        
+        
 
-                
-                
-                tags:
-                 <a class="category" href="https://finhane.com/tags/linux">Linux</a> <a class="category" href="https://finhane.com/tags/bash">Bash</a> <a class="category" href="https://finhane.com/tags/shell">Shell</a>
-                
-              </span>
-            </footer>
-          </article>
-          
-          <h2>
-            2017
-          </h2>
-          <article>
-            <h1>
-              <a href="https://finhane.com/blog/2017/07/comandos-b%C3%A1sicos-que-nunca-lembro-do-manjaro-linux/" title="Comandos Básicos Que Nunca Lembro Do Manjaro Linux">Comandos Básicos Que Nunca Lembro Do Manjaro Linux</a>
-            </h1>
-            <time>
-              <span class="month">Jul</span>
-              <span class="day">27</span>
-            </time>
-            <footer>
-              <span class="categories"> 
-                
-                
-                posted in:
-                 <a class="category" href="https://finhane.com/categories/linux">Linux</a>
-              </br>
-                
+<header>
+  <p class="meta">Aug 23, 2019
+     - 2 minute read 
+     - <a href="https://finhane.com/blog/2019/08/metodos-de-insersao-no-vim/#disqus_thread">Comments</a>
 
-                
-                
-                tags:
-                 <a class="category" href="https://finhane.com/tags/linux">linux</a> <a class="category" href="https://finhane.com/tags/manjraro">manjraro</a>
-                
-              </span>
-            </footer>
-          </article>
+    
+    
+      - <a class="label" href="https://finhane.com/categories/linux/">Linux </a>
+    
+  </p>
+  <h1 class="entry-title">
+    <a href="https://finhane.com/blog/2019/08/metodos-de-insersao-no-vim/">Metodos De Insersao No Vim</a>
+  </h1>
+</header>
+
+
+        <div class="entry-content">
           
+          
+          
+          <p>Abaixo alguns modos de inserção para ser utilizado no Vim</p>
+
+<h2 id="inserção">Inserção</h2>
+
+<p>| i | Ativa modo inserção                           |
+| a | Ativa modo de inserção um caracter a frente   |
+| I | Ativa modo de insersção no início da linha    |
+| A | Atica modo de inserção no final da linha      |
+| o | Ativa modo de inserção na linha de baixo      |
+| O | Ativa modo de inserção na linha de cima       |
+| S | Apaga a linha toda e ativa modo de inserção   |</p>
+
+<h2 id="copiar-recortar-remover-e-colar">Copiar, Recortar/Remover e Colar</h2>
+
+<p>|   yy  |   Copia a linha inteira   |
+|   dd  |   Recorta/Remove  a linha inteira |</p>
+
+<ul>
+<li>Se desejar realizar as operações acima em mais linha basta digitar a quantidade de linhas que deseja.
+Exemplo com 3 linhas</li>
+</ul>
+
+<p>|   3yy |   Copia a linha atual e mais 2 abaixo |
+|   3dd |   Recorta/Remove a linha atual e mais 2 abaixo    |</p>
+
+<p>|   p   |   Cola na posição do cursor o que foi copiado/recortado   |</p>
+
+<h2 id="sair-salvar-e-abrir-arquivos">Sair, Salvar e Abrir Arquivos</h2>
+
+<p>|   q   |   Sair do Vim             |
+|   :q! |   Sair sem salvar do Vim  |
+|   :wq |   Salvar e depois sair    |
+|   :w CAMINHO DO ARQUIVO   | Salvar o atual arquivo em outro local ou outro nome   |
+|   :x  |   Salvar e depois sair    |
+|   Shift + zz  | Salvar e depois sair  |</p>
+
+<p>|   :e CAMINHO DO ARQUIVO   |   Abre um arquivo no Vim  |
+|   :r CAMINHO DO ARQUIVO   |   Carreta o conteúdo do arquivo selecionado no arquivo atual e na posição do cursor |</p>
         </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">Felipe Finhane de Paula</span></span>
+    
+    <time>Aug 23, 2019</time>
+    
+      <span class="categories">
+        Tags:
+        
+          <a class="category" href="https://finhane.com/tags/linux">Linux</a>  <a class="category" href="https://finhane.com/tags/vim">Vim</a>  <a class="category" href="https://finhane.com/tags/texto">Texto</a>  <a class="category" href="https://finhane.com/tags/programa%c3%a7%c3%a3o">Programação</a>  
+    
+    </span>
+  </p>
+
+  
+
+  <p class="meta">
+    
+        <a class="basic-alignment left" href="https://finhane.com/blog/2018/02/deploy-de-aplica%C3%A7%C3%A3o-no-heroku/" title="Deploy De Aplicação No Heroku">Deploy De Aplicação No Heroku</a>
+    
+
+    
+  </p>
+  
+    
+  
+</footer>
+
       </article>
     </div>
-
     
 
 <aside class="sidebar thirds">
