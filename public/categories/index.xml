@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Finhane.com</title>
@@ -39,20 +39,20 @@
     </item>
     
     <item>
+      <title>Culinária</title>
+      <link>https://finhane.com/categories/culin%C3%A1ria/</link>
+      <pubDate>Mon, 05 Feb 2018 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/categories/culin%C3%A1ria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Culinária1</title>
       <link>https://finhane.com/categories/culin%C3%A1ria1/</link>
       <pubDate>Mon, 05 Feb 2018 22:22:22 -0300</pubDate>
       
       <guid>https://finhane.com/categories/culin%C3%A1ria1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Culinária</title>
-      <link>https://finhane.com/categories/culin%C3%A1ria/</link>
-      <pubDate>Wed, 02 Aug 2017 22:22:22 -0300</pubDate>
-      
-      <guid>https://finhane.com/categories/culin%C3%A1ria/</guid>
       <description></description>
     </item>
     

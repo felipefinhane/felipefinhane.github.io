@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Finhane.com</title>
@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Linux</title>
+      <title>linux</title>
       <link>https://finhane.com/tags/linux/</link>
       <pubDate>Fri, 23 Aug 2019 00:37:49 -0300</pubDate>
       
@@ -111,11 +111,11 @@
     </item>
     
     <item>
-      <title>manjraro</title>
-      <link>https://finhane.com/tags/manjraro/</link>
+      <title>manjaro</title>
+      <link>https://finhane.com/tags/manjaro/</link>
       <pubDate>Thu, 27 Jul 2017 22:22:22 -0300</pubDate>
       
-      <guid>https://finhane.com/tags/manjraro/</guid>
+      <guid>https://finhane.com/tags/manjaro/</guid>
       <description></description>
     </item>
     
