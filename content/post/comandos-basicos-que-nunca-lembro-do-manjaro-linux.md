@@ -8,7 +8,7 @@ categories:
 - Linux 
 tags:
 - linux
-- manjraro
+- manjaro
 ---
 
 

@@ -15,6 +15,8 @@ tags:
 Abaixo alguns atalhos para ajudar você a ter um melhor desempenho no terminal usando o Terminator
 
 {{< codecaption lang="bash"  >}}
+
+
 # Duplicar janela na Vertical
 $ crtl+shift+e
 
