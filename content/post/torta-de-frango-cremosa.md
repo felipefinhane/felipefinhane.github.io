@@ -21,6 +21,7 @@ tags:
 + 1 colher (sopa) de fermento em pó
 + 2 ovos
 + 1 caixinha de creme de leite
++ Orégano a gosto (Opcional)
 
 ### Recheio (5)
 + 1 peito de frango temperado, cozido e desfiado
