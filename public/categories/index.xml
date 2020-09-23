@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Finhane.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2020 16:55:22 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2020 11:34:14 -0300</lastBuildDate>
     
 	<atom:link href="https://finhane.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Linux</title>
       <link>https://finhane.com/categories/linux/</link>
-      <pubDate>Wed, 01 Apr 2020 16:55:22 -0300</pubDate>
+      <pubDate>Wed, 23 Sep 2020 11:34:14 -0300</pubDate>
       
       <guid>https://finhane.com/categories/linux/</guid>
       <description></description>
@@ -39,20 +39,20 @@
     </item>
     
     <item>
-      <title>Culinária</title>
-      <link>https://finhane.com/categories/culin%C3%A1ria/</link>
-      <pubDate>Mon, 05 Feb 2018 22:22:22 -0300</pubDate>
-      
-      <guid>https://finhane.com/categories/culin%C3%A1ria/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Culinária1</title>
       <link>https://finhane.com/categories/culin%C3%A1ria1/</link>
       <pubDate>Mon, 05 Feb 2018 22:22:22 -0300</pubDate>
       
       <guid>https://finhane.com/categories/culin%C3%A1ria1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Culinária</title>
+      <link>https://finhane.com/categories/culin%C3%A1ria/</link>
+      <pubDate>Wed, 02 Aug 2017 22:22:22 -0300</pubDate>
+      
+      <guid>https://finhane.com/categories/culin%C3%A1ria/</guid>
       <description></description>
     </item>
     
