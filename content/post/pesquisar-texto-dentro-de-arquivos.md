@@ -16,6 +16,8 @@ tags:
 <!--more-->
 O comando abaixo é um exemplo da pesquisa da palavra TESTE dentro dos arquivos da pasta atual.
 
-<pre>
+
+{{< highlight Bash >}}
 $ find ./* -type f -exec grep -l TESTE {} \;
-</pre>
+
+{{< / highlight >}}

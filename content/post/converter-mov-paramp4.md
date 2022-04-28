@@ -14,6 +14,6 @@ tags:
 <!--more-->
 Abaixo comando do FFMPEG para converter arquivos de vídeo
 
-<pre>
+{{< highlight bash >}}
 $ ffmpeg -i ARQUIVO.MOV ARQUIVO.MP4
-</pre>
+{{< / highlight >}}

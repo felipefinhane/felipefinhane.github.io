@@ -2,7 +2,7 @@
 title: "Atalhos Terminator"
 date: 2020-04-01T16:55:22-03:00
 draft: false
-toc: true
+toc: false
 comments: false
 categories:
 - Linux 
@@ -13,42 +13,38 @@ tags:
 <!--more-->
 Abaixo alguns atalhos para ajudar você a ter um melhor desempenho no terminal usando o Terminator
 
-<pre>
+## Duplicar janela na Vertical
+CRTL+SHIFT+e
 
-# Duplicar janela na Vertical
-$ crtl+shift+e
-
-# Duplicar janela na horizontal
-$ crtl+shift+o
+## Duplicar janela na horizontal
+CRTL+SHIFT+o
  
-# Avançar entre Janelas
-$ crtl+tab
+## Avançar entre Janelas
+CRTL+tab
  
-# Retroceder entre janelas
-$ crtl+shift+tab ou crtl+shift+p
+## Retroceder entre janelas
+CRTL+SHIFT+tab ou CRTL+SHIFT+p
  
-# Destaque da Janela selecionada
-$ crtl+shift+z
+## Destaque da Janela selecionada
+CRTL+SHIFT+z
  
-# Agrupar Tab
-$ super+T
+## Agrupar Tab
+super+T
  
-# Desagrupar Tab
-$ Shift+super+T
+## Desagrupar Tab
+SHIFT+super+T
  
-# Agrupar janelas
-$ super+g
+## Agrupar janelas
+super+g
  
-# Para desagrupar
-$ shift+superG+g
+## Para desagrupar
+SHIFT+superG+g
  
-# Fechar um terminal
-$ crtl+shift+w
+## Fechar um terminal
+CRTL+SHIFT+w
  
-# Fechar todos os terminais
-$ crtl+shift+q
+## Fechar todos os terminais
+CRTL+SHIFT+q
  
-# Pequisar no terminal
-$ crtl+shift+f
-
-</pre>
+## Pequisar no terminal
+CRTL+SHIFT+f

@@ -15,9 +15,7 @@ tags:
 <!--more-->
 Sempre que preciso de um comando específico ou então atualizar o sistema ou determinada aplicação tenho que procurar em alguma das minhas anotações (físicas ou digitais), pois são comandos que não utilizo com frequência como por exemplo o “ll” que a propósito utilizo alias de “ls -l” por preguiça. Segue um apanhado que fiz pelas pesquisas na web, e com certeza alguns deles nem testei, caso encontrem falhas favor me avisar:
 
-<pre>
-
-
+{{< highlight bash >}}
 # Sincroniza os repositórios.
 $ pacman -Sy
 
@@ -107,5 +105,4 @@ $ pacman -S pacote --nonconfirm
 
 # Sincroniza os repositórios/procura por atualização e ignora os grupos dos pacotes solicitados.
 $ pacman -Syu --ignoregroup pacote1 , pacote2...
-
-</pre>
+{{< / highlight >}}

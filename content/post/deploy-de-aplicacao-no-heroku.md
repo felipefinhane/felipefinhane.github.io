@@ -49,11 +49,16 @@ Esse post é sobre o deploy de duas aplicações:
 7. Criar Procfile
 8. web: ./node_modules/.bin/lite-server -c server.js
 9. Criar arquivo server.js
-<pre>
+
+{{< highlight JavaScript >}}
+
 module.exports = {
     port: process.env.PORT
 }
-</pre>
+
+{{< / highlight >}}
+
+
 10. git init
 11. git add .
 12. git commit -m “First Commit”
@@ -69,7 +74,9 @@ Vou utilizar a mesma aplicação para a explicação  e tranformar em uma aplica
 
 1. npm install express –save (–save indica que será salva a dependência no arquivo package.json e o heroku vai instalar na hora do build)
 2. Criar arquivo index.js
-<pre>
+
+{{< highlight JavaScript >}}
+
 const express = require(‘express’);
 const app = express();
 const port = process.env.PORT || 3000;
@@ -79,11 +86,16 @@ res.send(‘Deploy da aplicação NodeJS’)
 app.listen(port, () => {
 console.log(‘Express Funcionando!’);
 });
-</pre>
+
+{{< / highlight >}}
 3. Alterar Procfile
-<pre>
+
+{{< highlight JavaScript >}}
+
 web: node index.js
-</pre>
+
+{{< / highlight >}}
+
 4. git add .
 5. git commit -m “Node application”
 6. git push heroku master
