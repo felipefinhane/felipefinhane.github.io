@@ -10,6 +10,7 @@ tags:
 - linux
 ---
 
+
 <!--more-->
 Abaixo alguns atalhos para ajudar você a ter um melhor desempenho no terminal usando o Terminator
 
