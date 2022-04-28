@@ -1,0 +1,126 @@
+baseURL = "https://finhane.com/"
+languageCode = "en-us"
+title = "Finhane.com"
+theme  = "Hugo-Octopress"
+
+# Disqus shortcode
+# Disable comments for any individual post by adding "comments: false" in its frontmatter
+disqusShortname = "Your disqus shortname"
+
+# Number of blog posts in each pagination page
+paginate = 6
+
+[permalinks]
+# Configures post URLs
+post = "/blog/:year/:month/:title/"
+
+[blackfriday]
+  hrefTargetBlank = true # open external links in a new window
+  fractions = false
+
+[params]
+
+  # If false, all contents of posts will appear on the front page and in pagination
+  truncate = true
+
+  # Author's name (appears in meta tags and under posts)
+  author = "Felipe Finhane de Paula"
+
+  # This text appears in site header under website title
+  subtitle = "Conhecimento e Diversão."
+
+  # Search engine URL
+  searchEngineURL = "https://www.google.com/search"
+
+  # Text of the "Continue Reading" label. Supports markdown and inline HTML.
+  # For example, &rarr; == right arrow.
+  continueReadingText = "Would you like to know more? &rarr;"
+
+  # Google analytics code - remove if you do not have/want Google Analytics - needs JavaScript
+  googleAnalytics = "UA-75687508-1"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+
+  # Switch to true to enable RSS icon link
+  rss = true
+
+  # Set to true to use a text label for RSS instead of an icon
+  # This is overwritten by the "rss" setting
+  textrss = false
+
+  # Website's default description
+  description = "Site pessoal para estudo e aprimoramento de técnicas em TI."
+
+  # Populate with your search keywords - these will appear in meta tags
+  # defaultKeywords = ["programacao" , "devops" , "dados" , "php", "go", "finhane", "felipe", "linux", "osx", "ajuda", "help"]
+
+  # Set to true to hide ReadingTime on posts
+  disableReadingTime = false
+
+  # Set to true to disable downloading of remote Google fonts
+  disableGoogleFonts = false
+
+  # Remove or set to false to use local fonts
+  remoteFonts = false
+
+  # Remove or set to false to use FontAwesome CDN, otherwise, the theme uses ForkAwesome local fonts.
+  # fontAwesome = false
+
+  # If set to true, navigation menu links will open in a new window with the exception of links to root ("/")
+  # If this item does not exist or is set to false, then navigation menu links will open in the same window
+  navigationNewWindow = true
+  sidebarMenuEnabled = true
+
+  # Highlight shortcode and code fences (```) will be treated similarly
+  pygmentscodefences = true
+
+  # Change highlight style here.
+  # Full list: https://xyproto.github.io/splash/docs/all.html
+  pygmentsStyle = "dracula"
+
+  # Add other Chroma options here (override them in the highlight shortcode inside markdown)
+  # List of supported options: https://gohugo.io/content-management/syntax-highlighting/#options
+  # For example: pygmentsoptions = "linenos=true"
+
+  disqusShortname = "finhane"
+  
+  #Sidebar Icons
+  github = "https://github.com/felipefinhane/"
+  bitbucket = "https://bitbucket.org/felipefinhane/"
+  gitlab = "https://gitlab.com/fpaula"
+  twitter = "https://twitter.com/fbin/"
+  keybase = ""
+  linkedin = "https://www.linkedin.com/in/felipefdepaula/"
+  stackoverflow = ""
+  googleplus = ""
+  youtube = ""
+  facebook = ""
+  instagram = ""
+  bitcoin = ""
+
+[[menu.main]]
+  Name = "Blog"
+  URL = "/"
+  weight = -10
+
+[[menu.main]]
+#  Name = "The other guy from Wham!"
+#  URL = "https://www.google.com/search?q=andrew+ridgeley"
+#  weight = -5
+
+[[menu.main]]
+#  Name = "This theme - add link"
+#  URL = "https://www.github.com"
+
+[[menu.sidebar]]
+#  Name = "Google"
+#  URL = "https://www.google.com"
+#  weight = 0
+
+[[menu.sidebar]]
+  Name = "Hugo"
+  URL = "/categories/hugo/"
+  weight = 1
