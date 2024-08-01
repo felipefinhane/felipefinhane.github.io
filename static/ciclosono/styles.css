@@ -1,0 +1,163 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa; /* Fundo azul claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff; /* Fundo branco para o container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px; /* Espaçamento para dispositivos móveis */
+}
+
+h1 {
+    font-size: 24px;
+    color: #00796b; /* Azul escuro */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #004d40; /* Verde escuro */
+}
+
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #b2dfdb; /* Borda azul claro */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #e0f2f1; /* Fundo azul claro */
+    color: #004d40; /* Texto verde escuro */
+}
+
+button {
+    background-color: #00796b; /* Azul escuro */
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Espaçamento entre os botões */
+}
+
+button:hover {
+    background-color: #004d40; /* Verde escuro no hover */
+}
+
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#results p {
+    background-color: #b2ebf2; /* Fundo azul bebê */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #004d40; /* Texto verde escuro */
+    font-size: 14px;
+}
+
+#sleep-cycle-explanation, #age-based-cycles-explanation {
+    margin-top: 20px;
+    background-color: #e0f7fa; /* Fundo azul claro */
+    padding: 20px;
+    border-radius: 10px;
+    color: #004d40; /* Texto verde escuro */
+}
+
+#sleep-cycle-explanation h2, #age-based-cycles-explanation h2 {
+    color: #00796b; /* Azul escuro */
+}
+
+#sleep-cycle-explanation h3 {
+    color: #00796b; /* Azul escuro */
+}
+
+#sleep-cycle-explanation .sleep-stage {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #b2dfdb; /* Borda azul claro */
+    border-radius: 5px;
+    background-color: #e0f2f1; /* Fundo azul claro */
+}
+
+#sleep-cycle-explanation .sleep-stage img {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+#sleep-cycle-explanation .sleep-stage strong {
+    font-size: 16px;
+    color: #00796b; /* Azul escuro */
+}
+
+#sleep-cycle-explanation .sleep-stage p {
+    margin: 0;
+    color: #004d40; /* Texto verde escuro */
+    font-size: 14px;
+}
+
+/* Media queries para ajuste em dispositivos móveis */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="time"] {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    #results p {
+        font-size: 12px;
+    }
+
+    #sleep-cycle-explanation, #age-based-cycles-explanation {
+        padding: 15px;
+    }
+
+    #sleep-cycle-explanation .sleep-stage img {
+        width: 20px;
+        height: 20px;
+    }
+
+    #sleep-cycle-explanation .sleep-stage strong {
+        font-size: 14px;
+    }
+
+    #sleep-cycle-explanation .sleep-stage p {
+        font-size: 12px;
+    }
+}
