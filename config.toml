@@ -8,7 +8,7 @@ theme  = "Hugo-Octopress"
 disqusShortname = "Your disqus shortname"
 
 # Number of blog posts in each pagination page
-paginate = 6
+pagerSize = 6
 
 [permalinks]
 # Configures post URLs
