@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Finhane.com</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Finhane.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jul 2022 12:27:22 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Atalhos Vim (vim-bootstrap) </title>
+      <link>http://localhost:1313/blog/2022/07/atalhos-vim-vim-bootstrap/</link>
+      <pubDate>Fri, 01 Jul 2022 12:27:22 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2022/07/atalhos-vim-vim-bootstrap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>FFMPEG Converter arquivo de vídeo</title>
+      <link>http://localhost:1313/blog/2020/09/ffmpeg-converter-arquivo-de-v%C3%ADdeo/</link>
+      <pubDate>Wed, 23 Sep 2020 11:34:14 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2020/09/ffmpeg-converter-arquivo-de-v%C3%ADdeo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Atalhos Terminator</title>
+      <link>http://localhost:1313/blog/2020/04/atalhos-terminator/</link>
+      <pubDate>Wed, 01 Apr 2020 16:55:22 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2020/04/atalhos-terminator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Métodos de inserção no VIM</title>
+      <link>http://localhost:1313/blog/2019/08/m%C3%A9todos-de-inser%C3%A7%C3%A3o-no-vim/</link>
+      <pubDate>Fri, 23 Aug 2019 00:37:49 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2019/08/m%C3%A9todos-de-inser%C3%A7%C3%A3o-no-vim/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deploy De Aplicação No Heroku</title>
+      <link>http://localhost:1313/blog/2018/02/deploy-de-aplica%C3%A7%C3%A3o-no-heroku/</link>
+      <pubDate>Thu, 15 Feb 2018 22:22:22 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2018/02/deploy-de-aplica%C3%A7%C3%A3o-no-heroku/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Torta De Frango Cremosa</title>
+      <link>http://localhost:1313/blog/2018/02/torta-de-frango-cremosa/</link>
+      <pubDate>Mon, 05 Feb 2018 22:22:22 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2018/02/torta-de-frango-cremosa/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pesquisar Texto Dentro De Arquivos</title>
+      <link>http://localhost:1313/blog/2017/09/pesquisar-texto-dentro-de-arquivos/</link>
+      <pubDate>Tue, 19 Sep 2017 22:22:22 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2017/09/pesquisar-texto-dentro-de-arquivos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Molho Branco</title>
+      <link>http://localhost:1313/blog/2017/08/molho-branco/</link>
+      <pubDate>Wed, 02 Aug 2017 22:22:22 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2017/08/molho-branco/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Comandos Básicos Que Nunca Lembro Do Manjaro Linux</title>
+      <link>http://localhost:1313/blog/2017/07/comandos-b%C3%A1sicos-que-nunca-lembro-do-manjaro-linux/</link>
+      <pubDate>Thu, 27 Jul 2017 22:22:22 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2017/07/comandos-b%C3%A1sicos-que-nunca-lembro-do-manjaro-linux/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

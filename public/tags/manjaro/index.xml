@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manjaro on Finhane.com</title>
+    <link>http://localhost:1313/tags/manjaro/</link>
+    <description>Recent content in Manjaro on Finhane.com</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jul 2017 22:22:22 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/manjaro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comandos Básicos Que Nunca Lembro Do Manjaro Linux</title>
+      <link>http://localhost:1313/blog/2017/07/comandos-b%C3%A1sicos-que-nunca-lembro-do-manjaro-linux/</link>
+      <pubDate>Thu, 27 Jul 2017 22:22:22 -0300</pubDate>
+      <guid>http://localhost:1313/blog/2017/07/comandos-b%C3%A1sicos-que-nunca-lembro-do-manjaro-linux/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
