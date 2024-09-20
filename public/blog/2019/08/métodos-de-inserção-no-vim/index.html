@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+  
+    
+    
+      <link href="/css/fonts.css" rel="stylesheet" type="text/css">
+    
+  
+
+  
+  <title>Métodos de inserção no VIM</title>
+
+  
+  
+  <link rel="stylesheet" href="/css/hugo-octopress.css">
+
+  
+  
+
+  
+    <link rel="stylesheet" href="/css/fork-awesome.min.css">
+  
+
+  
+  <link href="http://localhost:1313/favicon.png" rel="icon">
+
+  
+  
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="">
+  <meta name="author" content="Felipe Finhane de Paula">
+
+    
+  <meta name="generator" content="Hugo 0.134.2">
+
+  
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R0568MV3BE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-R0568MV3BE');
+  </script>
+
+  
+  
+
+  
+  
+
+
+
+</head>
+<body>
+
+
+<header role="banner">
+<hgroup>
+  
+  <h1><a href="http://localhost:1313/">Finhane.com</a></h1>
+    <h2>Conhecimento e Diversão.</h2>
+</hgroup></header>
+
+
+<nav role="navigation">
+<fieldset class="mobile-nav">
+  
+  <select onchange="location = this.value;">
+    <option value="">Navigate…</option>
+      
+        <option value="http://localhost:1313/">» Blog</option>
+      
+        <option value="http://localhost:1313/">» </option>
+      
+  </select>
+</fieldset>
+
+
+<ul class="main-navigation">
+  
+  
+    
+      <li><a href="http://localhost:1313/" title="Blog">Blog</a></li>
+    
+  
+    
+      <li><a href="http://localhost:1313/" title=""  target="_blank"  rel="noopener noreferrer"></a></li>
+    
+  
+</ul>
+
+<ul class="subscription">
+  
+    
+        <a href="http://localhost:1313/index.xml" target="_blank" type="application/rss+xml" title="RSS" rel="noopener noreferrer"><i class="fa fa-rss-square fa-lg"></i></a>
+    
+  
+</ul>
+
+
+  <form action="https://www.google.com/search" method="get" target="_blank" rel="noopener noreferrer">
+    <fieldset role="search">
+      <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+      <input type="hidden" name="q" value="site:http://localhost:1313/" />
+    </fieldset>
+  </form>
+
+</nav>
+
+
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+
+        
+        
+
+<header>
+  <p class="meta">Aug 23, 2019
+     - 2 minute read 
+     - <a href="http://localhost:1313/blog/2019/08/m%C3%A9todos-de-inser%C3%A7%C3%A3o-no-vim/#disqus_thread">Comments</a>
+
+    
+    
+      - <a class="label" href="http://localhost:1313/categories/linux/">Linux </a>
+    
+  </p>
+  <h1 class="entry-title">
+     Métodos de inserção no VIM 
+  </h1>
+</header>
+
+
+        <div class="entry-content">
+          
+          
+          
+          <p>Abaixo alguns modos de inserção para ser utilizado no Vim</p>
+<h3 id="inserção">Inserção</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Key</th>
+          <th style="text-align: left">Descrição</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">i</td>
+          <td style="text-align: left">Ativa modo inserção</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">a</td>
+          <td style="text-align: left">Ativa modo de inserção um caractere a frente</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">I</td>
+          <td style="text-align: left">Ativa modo de inserção no início da linha</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">A</td>
+          <td style="text-align: left">Atica modo de inserção no final da linha</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">o</td>
+          <td style="text-align: left">Ativa modo de inserção na linha de baixo</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">O</td>
+          <td style="text-align: left">Ativa modo de inserção na linha de cima</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">S</td>
+          <td style="text-align: left">Apaga a linha toda e ativa modo de inserção</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="copiar-recortarremover-e-colar">Copiar, Recortar/Remover e Colar</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Key</th>
+          <th style="text-align: left">Descrição</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">yy</td>
+          <td style="text-align: left">Copia a linha inteira</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">dd</td>
+          <td style="text-align: left">Recorta/Remove  a linha inteira</td>
+      </tr>
+  </tbody>
+</table>
+<p>Se desejar realizar as operações acima em mais linha basta digitar a quantidade de linhas que deseja.
+Exemplo com 3 linhas</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Key</th>
+          <th style="text-align: left">Descrição</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">3yy</td>
+          <td style="text-align: left">Copia a linha atual e mais 2 abaixo</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">3dd</td>
+          <td style="text-align: left">Recorta/Remove a linha atual e mais 2 abaixo</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">p</td>
+          <td style="text-align: left">Cola na posição do cursor o que foi copiado/recortado</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="sair-salvar-e-abrir-arquivos">Sair, Salvar e Abrir Arquivos</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Key</th>
+          <th style="text-align: left">Descrição</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">:q</td>
+          <td style="text-align: left">Sair do Vim</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">:q!</td>
+          <td style="text-align: left">Sair sem salvar do Vim</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">:wq</td>
+          <td style="text-align: left">Salvar e depois sair</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">:w CAMINHO DO ARQUIVO</td>
+          <td style="text-align: left">Salvar o atual arquivo em outro local ou outro nome</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">:x</td>
+          <td style="text-align: left">Salvar e depois sair</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">Shift + zz</td>
+          <td style="text-align: left">Salvar e depois sair</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">:e CAMINHO DO ARQUIVO</td>
+          <td style="text-align: left">Abre um arquivo no Vim</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">:r CAMINHO DO ARQUIVO</td>
+          <td style="text-align: left">Carreta o conteúdo do arquivo selecionado no arquivo atual e na posição do cursor</td>
+      </tr>
+  </tbody>
+</table>
+        </div>
+        
+
+<footer>
+  <p class="meta">
+    <span class="byline author vcard">Posted by <span class="fn">Felipe Finhane de Paula</span></span>
+    
+    <time>Aug 23, 2019</time>
+    
+      <span class="categories">
+        Tags:
+        
+          <a class="category" href="http://localhost:1313/tags/linux">Linux</a>  <a class="category" href="http://localhost:1313/tags/vim">Vim</a>  <a class="category" href="http://localhost:1313/tags/texto">Texto</a>  <a class="category" href="http://localhost:1313/tags/programa%c3%a7%c3%a3o">Programação</a>  
+    
+    </span>
+  </p>
+
+  
+
+  <p class="meta">
+    
+        <a class="basic-alignment left" href="http://localhost:1313/blog/2018/02/deploy-de-aplica%C3%A7%C3%A3o-no-heroku/" title="Deploy De Aplicação No Heroku">Deploy De Aplicação No Heroku</a>
+    
+
+    
+      <a class="basic-alignment right" href="http://localhost:1313/blog/2020/04/atalhos-terminator/" title="Atalhos Terminator">Atalhos Terminator</a>
+    
+  </p>
+  
+    
+  
+
+</footer>
+
+      </article>
+    </div>
+    
+
+<aside class="sidebar thirds">
+  <section class="first odd">
+
+    
+
+    <p>
+      
+    </p>
+  </section>
+
+
+
+  
+  <ul class="sidebar-nav">
+    <li class="sidebar-nav-item">
+      <a target="_blank" rel="noopener noreferrer" href="https://github.com/felipefinhane/" title="https://github.com/felipefinhane/"><i class="fa fa-github fa-3x"></i></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://bitbucket.org/felipefinhane/" title="https://bitbucket.org/felipefinhane/"><i class="fa fa-bitbucket fa-3x"></i></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/fpaula" title="https://gitlab.com/fpaula"><i class="fa fa-gitlab fa-3x"></i></a>
+      <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/fbin/" title="https://twitter.com/fbin/"><i class="fa fa-twitter fa-3x"></i></a>
+      
+         
+      
+      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/felipefdepaula/" title="https://www.linkedin.com/in/felipefdepaula/"><i class="fa fa-linkedin fa-3x"></i></a>
+      
+      
+      
+      
+      
+
+    
+    
+    </li>
+  </ul>
+
+  
+
+  
+    
+      <section class="odd">
+        
+        
+          <li>
+            <a href="http://localhost:1313/categories/hugo/" title="Hugo" >Hugo</a>
+          </li>
+        
+          <li>
+            <a href="http://localhost:1313/" title="" ></a>
+          </li>
+        
+      </section>
+    
+  
+
+  
+  
+  
+</aside>
+
+  </div>
+</div>
+
+    <footer role="contentinfo">
+      <p>Copyright &copy; 2024 Felipe Finhane de Paula - <a href="http://localhost:1313/license/">License</a> -
+        <span class="credit">Powered by <a target="_blank" href="https://gohugo.io" rel="noopener noreferrer">Hugo</a> and <a target="_blank" href="https://github.com/parsiya/hugo-octopress/" rel="noopener noreferrer">Hugo-Octopress</a> theme.
+      </p>
+    </footer>
+
+    
+    
+
+
+
+    
+    
+    
+
+    
+      <script>
+        var _gaq=[['_setAccount','UA-75687508-1'],['_trackPageview']];
+        (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+        g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+        s.parentNode.insertBefore(g,s)}(document,'script'));
+      </script>
+    
+  </body>
+</html>
+
