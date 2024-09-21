@@ -11,10 +11,13 @@
         <h1>Calculadora de Ciclo do Sono</h1>
         <label for="wake-up-time">Horário para acordar:</label>
         <input type="time" id="wake-up-time">
-        <button onclick="calculateSleepTimes()">Calcular Horários de Dormir</button>
+        <button id="calculate-button" onclick="calculateSleepTimes()">Calcular Horários de Dormir</button>
         <div id="results"></div>
         <button id="recalculate-button" onclick="recalculate()" style="display: none;">Recalcular</button>
     </div>
+    <footer>
+      <p><a href="https://finhane.com/ciclosono/politica_de_privacidade.html" target="_blank">Política de Privacidade</a></p>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

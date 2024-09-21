@@ -1,5 +1,3 @@
-// script.js
-
 function calculateSleepTimes() {
     const wakeUpTime = document.getElementById("wake-up-time").value;
     if (!wakeUpTime) {
@@ -32,71 +30,48 @@ function calculateSleepTimes() {
     }
 
     addSleepCycleExplanation(resultsDiv);
-    addAgeSleepCycleRecommendation(resultsDiv);
+    addAgeBasedCyclesExplanation(resultsDiv);
 
-    document.getElementById("recalculate-button").style.display = "block"; // Mostrar botão de recalcular
-}
+    // Esconder o botão de calcular e mostrar o botão de recalcular
+    document.getElementById("calculate-button").style.display = "none";
+    document.getElementById("recalculate-button").style.display = "block"; 
 
-function addSleepCycleExplanation(container) {
-    const explanation = document.createElement("div");
-    explanation.id = "sleep-cycle-explanation";
-    explanation.innerHTML = `
-        <h2>O que são ciclos de sono?</h2>
-        <p>O sono é composto por vários ciclos de aproximadamente 90 minutos cada, durante os quais passamos por diferentes estágios de sono, incluindo sono leve, sono profundo e REM (movimento rápido dos olhos).</p>
-        <p>Completar um ciclo completo de sono ajuda a garantir que você acorde se sentindo mais descansado e revigorado. Acordar no meio de um ciclo pode levar à sensação de cansaço e desorientação.</p>
-        <h3>Estágios do sono:</h3>
-        <div class="sleep-stage">
-            <img src="icons/light-sleep.png" alt="Estágio 1">
-            <div>
-                <strong>Estágio 1:</strong>
-                <p>Transição entre estar acordado e adormecer. É um sono leve que dura alguns minutos.</p>
-            </div>
-        </div>
-        <div class="sleep-stage">
-            <img src="icons/light-sleep.png" alt="Estágio 2">
-            <div>
-                <strong>Estágio 2:</strong>
-                <p>Sono leve onde a frequência cardíaca e a temperatura corporal diminuem.</p>
-            </div>
-        </div>
-        <div class="sleep-stage">
-            <img src="icons/deep-sleep.png" alt="Estágio 3">
-            <div>
-                <strong>Estágio 3:</strong>
-                <p>Sono profundo necessário para se sentir revigorado pela manhã.</p>
-            </div>
-        </div>
-        <div class="sleep-stage">
-            <img src="icons/rem-sleep.png" alt="REM">
-            <div>
-                <strong>REM:</strong>
-                <p>Estágio onde ocorrem a maioria dos sonhos. É importante para a consolidação da memória e aprendizado.</p>
-            </div>
-        </div>
-    `;
-    container.appendChild(explanation);
-}
-
-function addAgeSleepCycleRecommendation(container) {
-    const ageRecommendation = document.createElement("div");
-    ageRecommendation.id = "age-sleep-recommendation";
-    ageRecommendation.innerHTML = `
-        <h2>Recomendações de Ciclos de Sono por Idade</h2>
-        <p>Diferentes faixas etárias têm diferentes necessidades de sono. Aqui estão algumas recomendações gerais:</p>
-        <ul>
-            <li><strong>Crianças (3-5 anos):</strong> 10-13 horas de sono (7-9 ciclos)</li>
-            <li><strong>Crianças (6-12 anos):</strong> 9-12 horas de sono (6-8 ciclos)</li>
-            <li><strong>Adolescentes (13-17 anos):</strong> 8-10 horas de sono (5-7 ciclos)</li>
-            <li><strong>Adultos (18-64 anos):</strong> 7-9 horas de sono (4-6 ciclos)</li>
-            <li><strong>Idosos (65+ anos):</strong> 7-8 horas de sono (4-5 ciclos)</li>
-        </ul>
-        <p>Essas são apenas diretrizes gerais e as necessidades individuais podem variar.</p>
-    `;
-    container.appendChild(ageRecommendation);
+    // Garantir que a página não force a rolagem para um local específico
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function recalculate() {
     document.getElementById("wake-up-time").value = "";
     document.getElementById("results").innerHTML = "";
     document.getElementById("recalculate-button").style.display = "none"; // Esconder botão de recalcular
+    document.getElementById("calculate-button").style.display = "block"; // Mostrar botão de calcular novamente
+    window.scrollTo({ top: 0, behavior: 'smooth' }); // Rolagem suave para o topo ao recalcular
+}
+
+
+function addSleepCycleExplanation(container) {
+    const explanation = document.createElement("div");
+    explanation.id = "sleep-cycle-explanation";
+    explanation.innerHTML = `
+        <h2>O que são ciclos de sono?</h2>
+        <p>O sono é composto por vários ciclos de aproximadamente 90 minutos cada, incluindo fases como sono leve, sono profundo e sono REM. Para acordar mais revigorado, é melhor completar ciclos de sono completos, acordando no final de um ciclo.</p>
+    `;
+    container.appendChild(explanation);
+}
+
+function addAgeBasedCyclesExplanation(container) {
+    const ageExplanation = document.createElement("div");
+    ageExplanation.id = "age-based-cycles-explanation";
+    ageExplanation.innerHTML = `
+        <h2>Quantidade de Ciclos de Sono Recomendada por Idade</h2>
+        <p>O número de ciclos de sono recomendados pode variar dependendo da idade. Aqui está uma orientação geral:</p>
+        <ul>
+            <li>Crianças (3-5 anos): 4 a 5 ciclos</li>
+            <li>Crianças (6-13 anos): 4 a 5 ciclos</li>
+            <li>Adolescentes (14-17 anos): 4 a 5 ciclos</li>
+            <li>Adultos (18-64 anos): 4 a 6 ciclos</li>
+            <li>Idosos (65+ anos): 3 a 5 ciclos</li>
+        </ul>
+    `;
+    container.appendChild(ageExplanation);
 }
